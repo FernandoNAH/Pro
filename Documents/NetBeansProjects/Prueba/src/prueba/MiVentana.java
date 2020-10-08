@@ -16,14 +16,13 @@ public class MiVentana extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         Container cp = getContentPane();
         cp.setLayout(new FlowLayout());
-        JLabel etiqueta = new  JLabel("Nombre:");
+        JLabel etiqueta = new JLabel("Nombre:");
         JTextField texto = new JTextField(20);
         JButton boton = new JButton("edsd");
         cp.add(etiqueta);
         cp.add(texto);
         cp.add(boton);
-        
-        
+
     }
 
 }
