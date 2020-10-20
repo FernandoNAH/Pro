@@ -67,7 +67,7 @@ public class VentanaBotones extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        new VentanaBotones();
+      //  new VentanaBotones();
     }
 
 }
